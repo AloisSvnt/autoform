@@ -33,8 +33,10 @@ const pause = (ms) => {
 }
 
 const notified = (users) => {
-  const names = users.map(user => `${user.firstname} ${user.lastname}`).join(', ');
-  getElement('notif').textContent = `All forms sent for : ${names}`;
+  const names = users.map(user => `<li>${user.firstname} ${user.lastname}</li>`).join('');
+  const notif = getElement('notif')
+  notif.innerHTML = `All forms sent for : <ul>${names}</ul>`;
+  notif.style.opacity = 1
 }
 
 document.addEventListener('DOMContentLoaded', () => {
