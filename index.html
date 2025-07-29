@@ -2,17 +2,19 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <title>Formulaire test</title>
+  <title>Auto Form</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Formulaire automatisé</h1>
+  <h1>Auto Form</h1>
   <form id="user-form">
-    <label>Prénom : <input type="text" id="prenom" required></label><br>
-    <label>Nom : <input type="text" id="nom" required></label><br>
+    <label>Firstname : <input type="text" id="firstname" required></label><br>
+    <label>Lastname : <input type="text" id="lastname" required></label><br>
     <label>Email : <input type="email" id="email" required></label><br>
-    <button type="submit">Envoyer</button>
+    <label>Age : <input type="number" id="age" required></label><br>
+    <button type="submit">Send</button>
   </form>
-  <script src="script.js"></script>
+  <div id="notif"></div>
+  <script src="./scripts.js"></script>
 </body>
 </html>
