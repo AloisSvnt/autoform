@@ -91,10 +91,24 @@ button[type="submit"]:hover {
   box-shadow: 0 8px 20px rgba(209, 167, 64, 0.8);
 }
 
-#status {
+#notif {
   margin-top: 1rem;
   font-weight: 600;
-  text-align: center;
+  text-align: start;
   color: var(--accent-color);
   min-height: 24px;
+  transition: opacity 0.3s ease;
+  opacity: 0;
+  position: absolute;
+  padding: 24px 12px;
+  background-color: var(--bg-color);
+  border: var(--accent-color) 1px solid;
+  ul {
+    padding-left: 1rem;
+
+    li{
+      list-style: none;
+      margin-bottom: 0.2rem;
+    }
+  }
 }
