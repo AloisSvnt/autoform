@@ -18,6 +18,12 @@
     "age": 34
   },
   {
+    "firstname": "Robert",
+    "lastname": "Meunier",
+    "email": "robert.meunier@example",
+    "age": null
+  },
+  {
     "firstname": "Jean",
     "lastname": "Lefevre",
     "email": "jean.lefevre@example.com",
