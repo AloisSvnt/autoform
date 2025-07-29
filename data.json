@@ -1,0 +1,26 @@
+[
+  {
+    "firstname": "Alice",
+    "lastname": "Durand",
+    "email": "alice.durand@example.com",
+    "age": 27
+  },
+  {
+    "firstname": "Marc",
+    "lastname": "Dupuis",
+    "email": "marc.dupuis@example.com",
+    "age": 55
+  },
+  {
+    "firstname": "Sophie",
+    "lastname": "Martin",
+    "email": "sophie.martin@example.com",
+    "age": 34
+  },
+  {
+    "firstname": "Jean",
+    "lastname": "Lefevre",
+    "email": "jean.lefevre@example.com",
+    "age": 18
+  }
+]
